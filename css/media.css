@@ -1,0 +1,164 @@
+@media only screen and (max-width: 1200px){
+		.carousel-control.left{left:0;}
+	.carousel-control.right{right:0;}
+    .nav-tabs li a {
+        width: 237px;
+        font-size:16px;
+    }
+    #blog .container {
+        padding: 10px;
+    }
+	
+	
+	.navbar-brand{padding-top: 18px;}
+	.navbar-header{width: 27%;}
+	.navbar-default .navbar-nav > li > a{
+		padding-left: 15px;
+		padding-right: 15px;
+	    font-size: 16px;
+	}
+   
+}
+
+@media only screen and (max-width: 992px){
+	.navbar-toggle{
+		margin-top: -63px;
+		float:left;
+		}
+	.navbar-header{
+		width: 23%;
+	}
+	.navbar-default .navbar-nav > li > a{
+		padding-top:41px;
+		height: 107px;
+	}
+	
+	
+	.navbar-default .navbar-nav > li > a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+}
+		
+    .carousel-control.right {right:15px;}
+    .carousel-control.left {left:15px;}
+    .slideWwhite {
+    padding-top: 60px;
+    padding-left: 120px;
+}
+     .nav-tabs > li{
+         margin-left:10px;
+         margin-top:10px;
+    }
+     .nav-tabs > li:nth-child(2n) {
+         float:right;
+           margin-right:10px;
+    }
+       .nav-tabs li a {
+        width: 350px;
+        height:50px;
+        font-size:16px;
+    }
+      .tab-content span{
+          display:block;
+          text-align:center;
+          margin-left:0;
+          margin: 20px auto;
+      }
+}
+
+@media only screen and (max-width: 768px){
+	
+	.navbar-brand > img {
+    width: 200px;
+	margin: 10px auto
+}
+.navbar-header {
+    width: 100%;
+}
+.navbar-brand{
+	    float: none;
+}
+	
+	.navbar-default .navbar-nav > li > a {
+    padding-top: 10px;
+    height: 70px;
+}
+
+	.menuFooter{
+		    padding-top: 25px;
+	}
+    .lineH2 {
+        display:none;
+    }
+    .slideWwhite {
+    padding-top: 38px;
+    padding-left: 0;
+    text-align: center;
+}
+      .nav-tabs > li:nth-child(2n) {
+         float:none;
+    }
+      .nav-tabs > li{
+          width:100%;
+          float:none;
+          margin-left:0;
+          padding-left:30px;
+          padding-right:30px;
+      }
+        .nav-tabs > li a {
+            width:100%;
+        }
+}
+
+@media only screen and (max-width: 500px){
+    #technology .input {
+    background-image: url('../images/technologyBtn.png');
+    width: 259px;
+    height: 80px;
+    background-color: inherit;
+    border: 0;
+    font-size: 27px;
+    margin-top: 30px;
+    margin-bottom: 71px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+     .carousel-control.right {right:0px;}
+    .carousel-control.left {left:0px;}
+    #slider1 .glyphicon-menu-left, #slider1 .glyphicon-menu-right {
+        width:50px;
+    }
+    #slider .headerOrange2 {
+        margin-bottom: 19px;
+    }
+    .carousel-indicators {
+    bottom: 28px;
+}
+    h1{font-size: 40px;}
+    .slideWwhite h3 {
+        margin:auto;
+        margin-top:15px;
+        width:250px;
+    }
+    #slider .headerOrange1 {
+            margin-top: 16px;
+    }
+    #slider input {
+        width: 221px;
+        height: 44px;
+    }
+     .nav-tabs > li a {
+            width:100%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            line-height: 20px;
+        }
+}
+
+@media only screen and (max-width: 380px){
+	.navbar-toggle{
+		margin-top: -27px;
+		margin-bottom: 12px;
+	}
+}
